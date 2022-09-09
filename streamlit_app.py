@@ -21,5 +21,4 @@ discount = st.number_input('Discount as a decimal', min_value=0.01, max_value=0.
 
 
 if st.button('Predict Demand'):
-    price = predict(carat, cut, color, clarity, depth, table, x, y, z)
-    st.success(f'The predicted demand is ${price[0]:.2f} USD')
+    st.success(f'The predicted demand is 700! Or a more useful output probably..')
